@@ -162,7 +162,7 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.6)), to(rgba(34, 34, 34, 0.6))), url('../images/GorgeHeaderBackground.jpg');
   background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url('../images/GorgeHeaderBackground.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, auto;
+  background-size: auto, cover;
   background-repeat: repeat, repeat;
   background-attachment: scroll, scroll;
 }
@@ -1507,6 +1507,10 @@
 
 .pageimagesection.bespoke {
   background-image: none;
+}
+
+.pageimagesection.rite {
+  background-image: url('../images/Frame-1.png');
 }
 
 .processdiv {
