@@ -102,7 +102,7 @@
 .portfoliogrid {
   margin-right: auto;
   margin-left: auto;
-  padding: 16px 32px;
+  padding: 16px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -233,6 +233,7 @@
 
 .dropdown-link {
   position: static;
+  overflow: hidden;
   padding-left: 20px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
@@ -1346,6 +1347,7 @@
 
 .pageheadertext.ritesize {
   border-bottom-color: #5d4f3d;
+  text-align: center;
 }
 
 .pageheadertext.tree {
@@ -1901,6 +1903,12 @@
 
 .ideatephotodiv.hidden {
   display: none;
+}
+
+.ideatephotodiv.top {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
 }
 
 .ideatediv {
@@ -2498,6 +2506,8 @@
 
   .nav-link.mobile {
     display: block;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .navmenu {
@@ -2640,10 +2650,6 @@
     display: none;
   }
 
-  .button {
-    margin-top: 5px;
-  }
-
   .headerphoto {
     max-height: 300px;
   }
@@ -2704,6 +2710,16 @@
   .footertext.bottom {
     padding-bottom: 0px;
     text-align: center;
+  }
+
+  .socialicondiv {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .footersocialdiv {
@@ -2869,11 +2885,8 @@
 
   .pageheadertextdiv {
     padding-right: 16px;
+    padding-bottom: 32px;
     padding-left: 16px;
-  }
-
-  .pageparagraph {
-    text-align: left;
   }
 
   .headerblocktext.contact {
@@ -3042,6 +3055,10 @@
     margin-top: 0px;
   }
 
+  .contactheader {
+    text-align: center;
+  }
+
   .contacttextdiv {
     margin-top: 0px;
   }
@@ -3190,6 +3207,10 @@
     align-items: stretch;
   }
 
+  .pageparagraph {
+    text-align: center;
+  }
+
   .headerblocktext.cta {
     padding-left: 0px;
   }
@@ -3204,8 +3225,8 @@
       "Area";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
   }
 
   .rolediv {
@@ -3332,6 +3353,7 @@
     -ms-flex-align: center;
     align-items: center;
     border-style: none;
+    box-shadow: 1px 1px 13px -5px #222;
   }
 }
 
@@ -4052,6 +4074,24 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-_8f7a8138-aa30-14c2-a286-2f9a4ed7ce41-eae4dcd2 {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+
+  #w-node-_95da576c-92ee-df89-aed2-448e32a02b29-1406eb81 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
   #w-node-d10b93aa-0021-4169-5492-d9240f53954f-9c6c9edb {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
