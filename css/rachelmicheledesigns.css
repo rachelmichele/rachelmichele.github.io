@@ -1017,7 +1017,7 @@
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Rubik, sans-serif;
-  color: #fff;
+  color: #222;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
@@ -1352,10 +1352,6 @@
   border-bottom-color: #006443;
 }
 
-.pageheadertext.contact {
-  color: #fff;
-}
-
 .pageheadertextdiv {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1451,7 +1447,7 @@
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Rubik, sans-serif;
-  color: #fff;
+  color: #127f7f;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
@@ -1637,10 +1633,8 @@
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.24)), to(rgba(0, 0, 0, 0.24))), url('../images/IMG_9589.JPG');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url('../images/IMG_9589.JPG');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e5e5), to(#e5e5e5));
+  background-image: linear-gradient(180deg, #e5e5e5, #e5e5e5);
 }
 
 .processdiv {
@@ -2254,8 +2248,8 @@
   border-style: solid;
   border-width: 3px;
   border-color: #127f7f;
-  background-color: rgba(4, 10, 10, 0.48);
-  color: #fff;
+  background-color: #e5e5e5;
+  box-shadow: 1px 1px 13px -5px #222;
 }
 
 .contactflexdiv {
